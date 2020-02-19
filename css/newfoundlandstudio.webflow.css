@@ -772,7 +772,10 @@ a {
     display: none;
   }
   .project-image-box.w--current {
-    display: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   .project-info-box {
     width: 100%;
