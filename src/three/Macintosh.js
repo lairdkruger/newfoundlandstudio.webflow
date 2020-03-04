@@ -216,7 +216,6 @@ class Macintosh extends ThreeShell {
             this.camera.position.y += 3 * 0.001
         } else {
             this.renderer = null
-            window.location.href = 'frontpage.html'
         }
     }
 

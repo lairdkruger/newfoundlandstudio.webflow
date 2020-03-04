@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Wed Mar 04 2020 01:06:12 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5e5d86382a3a0f321be374df" data-wf-site="5e5b49aba623e413e57231c9">
+<html data-wf-page="5e5d86382a3a0ff5e5e374e1" data-wf-site="5e5b49aba623e413e57231c9">
     <head>
         <meta charset="utf-8" />
         <title>Newfoundland Studio</title>
@@ -48,182 +48,325 @@
         </script>
         <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
         <link href="images/webclip.png" rel="apple-touch-icon" />
+        <style>
+            ::selection {
+                background: #333; /* WebKit/Blink Browsers */
+                color: #fff;
+            }
+            ::-moz-selection {
+                background: #333; /* Gecko Browsers */
+                color: #fff;
+            }
+        </style>
     </head>
-    <body>
-        <div class="landing-section">
-            <div id="enter-button" class="enter-button"></div>
+    <body data-w-id="5e51f192a0e952cbebb6e9ce" style="opacity:0" class="body">
+        <!--from loading page-->
+        <div id="loading-page">
+            <div class="landing-section">
+                <div id="enter-button" class="enter-button"></div>
+            </div>
+            <div class="video-hosting-holders">
+                <div
+                    data-poster-url="videos/defaultVideo-poster-00001.jpg"
+                    data-video-urls="videos/defaultVideo-transcode.mp4,videos/defaultVideo-transcode.webm"
+                    data-autoplay="true"
+                    data-loop="true"
+                    data-wf-ignore="true"
+                    class="default-video-webm w-background-video w-background-video-atom"
+                >
+                    <video
+                        autoplay=""
+                        loop=""
+                        style='background-image:url("videos/defaultVideo-poster-00001.jpg")'
+                        muted=""
+                        playsinline=""
+                        data-wf-ignore="true"
+                        data-object-fit="cover"
+                    >
+                        <source
+                            src="videos/defaultVideo-transcode.mp4"
+                            data-wf-ignore="true"
+                        />
+                        <source
+                            src="videos/defaultVideo-transcode.webm"
+                            data-wf-ignore="true"
+                        />
+                    </video>
+                </div>
+                <div
+                    data-poster-url="videos/defaultVideo-poster-00001.jpg"
+                    data-video-urls="videos/defaultVideo-transcode.mp4,videos/defaultVideo-transcode.webm"
+                    data-autoplay="true"
+                    data-loop="true"
+                    data-wf-ignore="true"
+                    class="default-video-mp4 w-background-video w-background-video-atom"
+                >
+                    <video
+                        autoplay=""
+                        loop=""
+                        style='background-image:url("videos/defaultVideo-poster-00001.jpg")'
+                        muted=""
+                        playsinline=""
+                        data-wf-ignore="true"
+                        data-object-fit="cover"
+                    >
+                        <source
+                            src="videos/defaultVideo-transcode.mp4"
+                            data-wf-ignore="true"
+                        />
+                        <source
+                            src="videos/defaultVideo-transcode.webm"
+                            data-wf-ignore="true"
+                        />
+                    </video>
+                </div>
+                <div
+                    data-poster-url="videos/hoverVideo-poster-00001.jpg"
+                    data-video-urls="videos/hoverVideo-transcode.mp4,videos/hoverVideo-transcode.webm"
+                    data-autoplay="true"
+                    data-loop="true"
+                    data-wf-ignore="true"
+                    class="hover-video-webm w-background-video w-background-video-atom"
+                >
+                    <video
+                        autoplay=""
+                        loop=""
+                        style='background-image:url("videos/hoverVideo-poster-00001.jpg")'
+                        muted=""
+                        playsinline=""
+                        data-wf-ignore="true"
+                        data-object-fit="cover"
+                    >
+                        <source
+                            src="videos/hoverVideo-transcode.mp4"
+                            data-wf-ignore="true"
+                        />
+                        <source
+                            src="videos/hoverVideo-transcode.webm"
+                            data-wf-ignore="true"
+                        />
+                    </video>
+                </div>
+                <div
+                    data-poster-url="videos/hoverVideo-poster-00001.jpg"
+                    data-video-urls="videos/hoverVideo-transcode.mp4,videos/hoverVideo-transcode.webm"
+                    data-autoplay="true"
+                    data-loop="true"
+                    data-wf-ignore="true"
+                    class="hover-video-mp4 w-background-video w-background-video-atom"
+                >
+                    <video
+                        autoplay=""
+                        loop=""
+                        style='background-image:url("videos/hoverVideo-poster-00001.jpg")'
+                        muted=""
+                        playsinline=""
+                        data-wf-ignore="true"
+                        data-object-fit="cover"
+                    >
+                        <source
+                            src="videos/hoverVideo-transcode.mp4"
+                            data-wf-ignore="true"
+                        />
+                        <source
+                            src="videos/hoverVideo-transcode.webm"
+                            data-wf-ignore="true"
+                        />
+                    </video>
+                </div>
+                <div class="w-embed">
+                    <video
+                        id="default-video"
+                        class="responsive-video"
+                        playsinline=""
+                        muted=""
+                        autobuffer=""
+                        loop=""
+                        autoplay=""
+                        crossorigin="anonymous"
+                    >
+                        <source
+                            src="https://dl.dropboxusercontent.com/s/vfr2yx80a7iawb1/defaultVideo.webm?dl=0"
+                            type="video/webm"
+                        />
+                        <source
+                            src="https://dl.dropboxusercontent.com/s/3h4224l49vnhpb3/defaultVideo.mp4?dl=0"
+                            type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                    </video>
+                    <video
+                        id="hover-video"
+                        class="responsive-video"
+                        playsinline=""
+                        muted=""
+                        autobuffer=""
+                        loop=""
+                        autoplay=""
+                        crossorigin="anonymous"
+                    >
+                        <source
+                            src="https://dl.dropboxusercontent.com/s/jhsqqdohhlqzxhq/hoverVideo.webm?dl=0"
+                            type="video/webm"
+                        />
+                        <source
+                            src="https://dl.dropboxusercontent.com/s/10ltl7h5o6ummar/hoverVideo.mp4?dl=0"
+                            type="video/mp4"
+                        />
+                        Your browser does not support the video tag.
+                    </video>
+                    <style>
+                        .responsive-video {
+                            display: none;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            -webkit-transform: translateX(-50%) translateY(-50%);
+                            transform: translateX(-50%) translateY(-50%);
+                            height: 100%;
+                            min-width: 100%;
+                            object-fit: cover;
+                            overflow: hidden;
+                        }
+                    </style>
+                </div>
+            </div>
+            <section id="loader-box" class="loader-box">
+                <h6 id="loader-text" class="loader-text">0</h6>
+            </section>
         </div>
-        <div class="video-hosting-holders">
-            <div
-                data-poster-url="videos/defaultVideo-poster-00001.jpg"
-                data-video-urls="videos/defaultVideo-transcode.mp4,videos/defaultVideo-transcode.webm"
-                data-autoplay="true"
-                data-loop="true"
-                data-wf-ignore="true"
-                class="default-video-webm w-background-video w-background-video-atom"
-            >
-                <video
-                    autoplay=""
-                    loop=""
-                    style='background-image:url("videos/defaultVideo-poster-00001.jpg")'
-                    muted=""
-                    playsinline=""
-                    data-wf-ignore="true"
-                    data-object-fit="cover"
-                >
-                    <source
-                        src="videos/defaultVideo-transcode.mp4"
-                        data-wf-ignore="true"
-                    />
-                    <source
-                        src="videos/defaultVideo-transcode.webm"
-                        data-wf-ignore="true"
-                    />
-                </video>
+
+        <!--Frontpage-->
+        <div id="front-page">
+            <div class="poster-section">
+                <div class="title-box">
+                    <a href="index.html" class="title-heading-box w-inline-block">
+                        <h1 class="title-heading">Newfoundland</h1>
+                    </a>
+                    <div class="title-subheading-box">
+                        <h3 class="title-subheading">Hyper-Unique Websites</h3>
+                    </div>
+                </div>
+                <div class="project-thumbnail-section">
+                    <div class="side-text-box left">
+                        <div class="side-text left">Multi Dimensional Products</div>
+                    </div>
+                    <div class="project-thumbnail-box">
+                        <div class="curtain">
+                            <div class="webgl-image w-embed">
+                                <img
+                                    class="curtain-image"
+                                    alt="Newfoundland dog's side profile"
+                                    src="images/dog2.jpg"
+                                    crossorigin="anonymous"
+                                />
+                                <img
+                                    class="curtain-image"
+                                    alt="Dog lying down at a port next to water"
+                                    src="images/dog.jpg"
+                                    crossorigin="anonymous"
+                                />
+                                <img
+                                    class="curtain-image"
+                                    alt="Two dogs looking out of a kennel"
+                                    src="images/dog4.jpg"
+                                    crossorigin="anonymous"
+                                />
+                                <img
+                                    class="curtain-image"
+                                    alt="Dog standing with a dead rabbit in it's mouth"
+                                    src="images/dog3.jpg"
+                                    crossorigin="anonymous"
+                                />
+                            </div>
+                        </div>
+                        <div class="slide-navigation-box">
+                            <div class="navigation-prev">
+                                <div
+                                    id="navigation-prev"
+                                    data-w-id="855007b8-4540-3b09-14b4-39e8e7fd4d75"
+                                    style="border-color:rgb(255,255,255)"
+                                    class="nav-text"
+                                >
+                                    prev
+                                </div>
+                            </div>
+                            <div class="navigation-next">
+                                <div
+                                    id="navigation-next"
+                                    data-w-id="d921f2d8-b7d5-2a8e-4b77-d4976b0013bc"
+                                    style="border-color:rgb(255,255,255)"
+                                    class="nav-text"
+                                >
+                                    next
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="side-text-box right">
+                        <div class="side-text right">Cutting Edge Techniques</div>
+                    </div>
+                </div>
+                <div class="blurb-section">
+                    <div class="specialising-header-box">
+                        <h3 class="specialising-header">Specialising In:</h3>
+                    </div>
+                    <div class="specialising-text-box">
+                        <h3 class="specialising-text">
+                            The Highly Visual<br />ARTISTs<br />PORTFOLIOS<br />EVENTS<br />DESIGNERS<br />START-UPS<br />MARKETING<br />PRODUCTIONS<br />AGENCIES<br />STUDIOS<br />ETC<br />.<br />.<br />.<br />
+                        </h3>
+                    </div>
+                </div>
+                <div class="about-section">
+                    <div class="about-button-box">
+                        <div
+                            data-w-id="571225a3-26e3-8a9f-d338-febbc8075f7e"
+                            style="border-color:rgb(255,255,255)"
+                            class="contact-link about"
+                        >
+                            about
+                        </div>
+                    </div>
+                    <div class="about-expand">
+                        <div style="display:none" class="about-dots-1">
+                            <p class="specialising-text">.<br /></p>
+                        </div>
+                        <div style="display:none" class="about-dots-2">
+                            <p class="specialising-text">.<br /></p>
+                        </div>
+                        <div style="display:none" class="about-dots-3">
+                            <p class="specialising-text">.<br /></p>
+                        </div>
+                        <div style="display:none" class="about-blurb">
+                            <p class="specialising-text">
+                                working out of a sleep-out amidst christchurch&#x27;s
+                                greenery, newfoundland aims to deliver next-level
+                                graphics-heavy web-based experiences<br /><br />so<br /><br />if
+                                anything catches your eye (or makes any sense at all),
+                                then we should totally work together. flick us a message
+                                and let&#x27;s have a coffee/beer:<br /><br />
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div
-                data-poster-url="videos/defaultVideo-poster-00001.jpg"
-                data-video-urls="videos/defaultVideo-transcode.mp4,videos/defaultVideo-transcode.webm"
-                data-autoplay="true"
-                data-loop="true"
-                data-wf-ignore="true"
-                class="default-video-mp4 w-background-video w-background-video-atom"
-            >
-                <video
-                    autoplay=""
-                    loop=""
-                    style='background-image:url("videos/defaultVideo-poster-00001.jpg")'
-                    muted=""
-                    playsinline=""
-                    data-wf-ignore="true"
-                    data-object-fit="cover"
+            <div class="contact-section">
+                <a
+                    data-w-id="5ce1c04f-57b7-67a2-6413-7dffb9746587"
+                    style="border-color:rgb(255,255,255)"
+                    href="mailto:newfoundland@gmail.com"
+                    class="contact-link"
+                    >newfoundland@gmail.com</a
                 >
-                    <source
-                        src="videos/defaultVideo-transcode.mp4"
-                        data-wf-ignore="true"
-                    />
-                    <source
-                        src="videos/defaultVideo-transcode.webm"
-                        data-wf-ignore="true"
-                    />
-                </video>
-            </div>
-            <div
-                data-poster-url="videos/hoverVideo-poster-00001.jpg"
-                data-video-urls="videos/hoverVideo-transcode.mp4,videos/hoverVideo-transcode.webm"
-                data-autoplay="true"
-                data-loop="true"
-                data-wf-ignore="true"
-                class="hover-video-webm w-background-video w-background-video-atom"
-            >
-                <video
-                    autoplay=""
-                    loop=""
-                    style='background-image:url("videos/hoverVideo-poster-00001.jpg")'
-                    muted=""
-                    playsinline=""
-                    data-wf-ignore="true"
-                    data-object-fit="cover"
-                >
-                    <source src="videos/hoverVideo-transcode.mp4" data-wf-ignore="true" />
-                    <source
-                        src="videos/hoverVideo-transcode.webm"
-                        data-wf-ignore="true"
-                    />
-                </video>
-            </div>
-            <div
-                data-poster-url="videos/hoverVideo-poster-00001.jpg"
-                data-video-urls="videos/hoverVideo-transcode.mp4,videos/hoverVideo-transcode.webm"
-                data-autoplay="true"
-                data-loop="true"
-                data-wf-ignore="true"
-                class="hover-video-mp4 w-background-video w-background-video-atom"
-            >
-                <video
-                    autoplay=""
-                    loop=""
-                    style='background-image:url("videos/hoverVideo-poster-00001.jpg")'
-                    muted=""
-                    playsinline=""
-                    data-wf-ignore="true"
-                    data-object-fit="cover"
-                >
-                    <source src="videos/hoverVideo-transcode.mp4" data-wf-ignore="true" />
-                    <source
-                        src="videos/hoverVideo-transcode.webm"
-                        data-wf-ignore="true"
-                    />
-                </video>
-            </div>
-            <div class="w-embed">
-                <video
-                    id="default-video"
-                    class="responsive-video"
-                    playsinline=""
-                    muted=""
-                    autobuffer=""
-                    loop=""
-                    autoplay=""
-                    crossorigin="anonymous"
-                >
-                    <source
-                        src="https://dl.dropboxusercontent.com/s/vfr2yx80a7iawb1/defaultVideo.webm?dl=0"
-                        type="video/webm"
-                    />
-                    <source
-                        src="https://dl.dropboxusercontent.com/s/3h4224l49vnhpb3/defaultVideo.mp4?dl=0"
-                        type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                </video>
-                <video
-                    id="hover-video"
-                    class="responsive-video"
-                    playsinline=""
-                    muted=""
-                    autobuffer=""
-                    loop=""
-                    autoplay=""
-                    crossorigin="anonymous"
-                >
-                    <source
-                        src="https://dl.dropboxusercontent.com/s/jhsqqdohhlqzxhq/hoverVideo.webm?dl=0"
-                        type="video/webm"
-                    />
-                    <source
-                        src="https://dl.dropboxusercontent.com/s/10ltl7h5o6ummar/hoverVideo.mp4?dl=0"
-                        type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                </video>
-                <style>
-                    .responsive-video {
-                        display: none;
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        -webkit-transform: translateX(-50%) translateY(-50%);
-                        transform: translateX(-50%) translateY(-50%);
-                        height: 100%;
-                        min-width: 100%;
-                        object-fit: cover;
-                        overflow: hidden;
-                    }
-                </style>
             </div>
         </div>
-        <section id="loader-box" class="loader-box">
-            <h6 id="loader-text" class="loader-text">0</h6>
-        </section>
-        <script
-            src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js"
-            type="text/javascript"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous"
-        ></script>
-        <script src="js/webflow.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+        <script src="js/webflow.js" type="text/javascript"></script>
+
+        <script src="src/TweenLite.min.js"></script>
+
+        <!--from loading page-->
         <script src="src/three/three.min.js"></script>
         <script src="src/three/helpers/GLTFLoader.js"></script>
         <script src="src/three/post/EffectComposer.js"></script>
@@ -233,6 +376,30 @@
         <script src="src/three/post/DitherShader.js"></script>
         <script src="src/three/ThreeShell.js"></script>
         <script src="src/three/Macintosh.js"></script>
-        <script src="js/masterIndex.js"></script>
+
+        <!--from front page-->
+        <script src="src/curtains/curtains.min.js"></script>
+        <script src="src/curtains/post/morphShader.js"></script>
+        <script src="src/curtains/post/morphDitherShader.js"></script>
+        <script src="src/curtains/CurtainsShell.js"></script>
+
+        <script src="js/master.js"></script>
+
+        <style>
+            #curtains-canvas {
+                /* make the canvas wrapper fits the document */
+                position: fixed;
+                height: 100vh;
+                top: 0;
+                right: 0;
+                left: 0;
+                pointer-events: none;
+            }
+            .curtain img {
+                /* hide the img element */
+                /* display: none; */
+                opacity: 0;
+            }
+        </style>
     </body>
 </html>

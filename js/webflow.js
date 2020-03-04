@@ -9590,8 +9590,8 @@ Webflow.require('ix2').init({
                             actionTypeId: 'STYLE_OPACITY',
                             config: {
                                 delay: 0,
-                                easing: 'inCubic',
-                                duration: 1500,
+                                easing: '',
+                                duration: 0,
                                 target: {
                                     id:
                                         '5e5d86382a3a0ff5e5e374e1|5e51f192a0e952cbebb6e9ce',
