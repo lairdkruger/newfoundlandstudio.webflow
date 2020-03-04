@@ -1,0 +1,1 @@
+var threeTemplate = new Macintosh()
