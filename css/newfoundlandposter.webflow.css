@@ -294,6 +294,7 @@ a {
 }
 
 .specialising-text {
+    position: relative;
     margin-bottom: 0px;
     font-weight: 400;
     text-align: center;
@@ -386,15 +387,16 @@ a {
     display: -ms-flexbox;
     display: flex;
     width: 100vw;
+    margin-bottom: 200px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -408,7 +410,6 @@ a {
 .about-blurb {
     width: 66vw;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .about-dots {
@@ -416,6 +417,15 @@ a {
 }
 
 .about-expand {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-transform-origin: 50% 0%;
     -ms-transform-origin: 50% 0%;
     transform-origin: 50% 0%;
@@ -449,6 +459,9 @@ a {
     }
     .specialising-header-box {
         margin-top: 166px;
+    }
+    .about-section {
+        margin-bottom: 166px;
     }
 }
 
@@ -496,6 +509,12 @@ a {
     .nav-text {
         font-size: 14px;
         line-height: 24px;
+    }
+    .about-section {
+        margin-bottom: 100px;
+    }
+    .about-blurb {
+        margin-top: 50px;
     }
 }
 
