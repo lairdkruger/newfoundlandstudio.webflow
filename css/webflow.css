@@ -1734,6 +1734,9 @@ textarea.w-select {
 .w-tab-link.w--current {
     background-color: #c8c8c8;
 }
+.w-tab-link:focus {
+    outline: 0;
+}
 .w-tab-content {
     position: relative;
     display: block;
